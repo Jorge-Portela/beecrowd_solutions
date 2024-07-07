@@ -26,6 +26,6 @@ public class AreaOfACircle {
 
         double A = pi * (R * R);
 
-        System.out.printf("A = %.4f", A);
+        System.out.printf("A=%.4f\n", A);
     }
 }
