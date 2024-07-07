@@ -13,12 +13,18 @@ package bee_1002;
 * line after the result, otherwise you will receive "Presentation Error".
 * */
 
+import java.util.Locale;
+import java.util.Scanner;
+
 public class AreaOfACircle {
     public static void main (String[] args){
-        float R = 3;
-        float pi =  3.14159f;
+        Locale.setDefault(Locale.US);
+        Scanner reader = new Scanner(System.in);
 
-        float A = pi * (R * 2);
+        double R = reader.nextDouble();
+        double pi =  3.14159;
+
+        double A = pi * (R * R);
 
         System.out.printf("A = %.4f", A);
     }
