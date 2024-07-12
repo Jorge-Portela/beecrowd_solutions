@@ -18,8 +18,12 @@ package bee_1005;
  *               7.1
  * */
 
+import java.util.Locale;
+
 public class Average1 {
     public static void main(String[] args) {
+        Locale.setDefault(Locale.US);
+
 
     }
 }
