@@ -32,7 +32,7 @@ public class Average1 {
 
         double average = ((A * 3.5) + (B * 7.5)) / (3.5 + 7.5);
 
-        System.out.printf(" MEDIA = %.5f\n", average);
+        System.out.printf("MEDIA = %.5f\n", average);
 
         reader.close();
 
