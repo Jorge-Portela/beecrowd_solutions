@@ -26,6 +26,7 @@ public class Average1 {
         Scanner reader = new Scanner(System.in);
 
         double A = reader.nextDouble();
+        double B = reader.nextDouble();
 
         reader.close();
 
