@@ -19,11 +19,13 @@ package bee_1005;
  * */
 
 import java.util.Locale;
-
+import java.util.Scanner;
 public class Average1 {
     public static void main(String[] args) {
         Locale.setDefault(Locale.US);
+        Scanner reader = new Scanner(System.in);
 
+        reader.close(); 
 
     }
 }
