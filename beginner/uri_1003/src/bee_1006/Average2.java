@@ -20,10 +20,14 @@ package bee_1006;
 
 
 import java.util.Locale;
-
+import java.util.Scanner;
 public class Average2 {
     public static void main(String[] args){
         Locale.setDefault(Locale.US);
-        double A =
+        Scanner reader = new Scanner(System.in);
+
+        
+
+         reader.close();
     }
 }
