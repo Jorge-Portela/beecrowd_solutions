@@ -28,6 +28,7 @@ public class Average2 {
 
         double A = reader.nextDouble();
         double B = reader.nextDouble();
+        double C = reader.nextDouble();
 
          reader.close();
     }
