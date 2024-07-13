@@ -26,7 +26,7 @@ public class Average2 {
         Locale.setDefault(Locale.US);
         Scanner reader = new Scanner(System.in);
 
-        
+        double A = reader.nextDouble();
 
          reader.close();
     }
