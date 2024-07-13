@@ -30,11 +30,11 @@ public class Average2 {
         double B = reader.nextDouble();
         double C = reader.nextDouble();
 
-        double average = ((A * 2) + (B * 3) + (C + 5)) /  (2+3+5);
+        double average = ((A * 2) + (B * 3) + (C * 5)) /  (2+3+5);
 
 
-        System.out.printf("MEDIA = %.1F\n");
-        
+        System.out.printf( "MEDIA = %.1f\n",average);
+
          reader.close();
     }
 }
