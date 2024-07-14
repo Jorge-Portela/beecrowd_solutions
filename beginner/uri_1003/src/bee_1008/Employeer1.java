@@ -22,6 +22,14 @@ public class Employeer1 {
         Locale.setDefault(Locale.US);
         Scanner reader = new Scanner(System.in);
 
+        System.out.print("Enter employer number: ");
+        int number = reader.nextInt();
+        System.out.println("Enter employer month's worked hours: ");
+        int workHours = reader.nextInt();
+
+        
+
+
         reader.close();
 
 
