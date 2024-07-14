@@ -23,7 +23,7 @@ public class Employeer1 {
         Scanner reader = new Scanner(System.in);
 
         System.out.print("Enter employer number: ");
-        int number = reader.nextInt();
+        int employerNumber = reader.nextInt();
         System.out.println("Enter employer month's worked hours: ");
         int workHoursMonth = reader.nextInt();
         System.out.println("Enter amount $ employer receive per hour: ");
@@ -31,7 +31,7 @@ public class Employeer1 {
 
         double monthSalary= (double) workHoursMonth * amountPerHour;
 
-        
+        System.out.println("Employer Number: " + employerNumber);
 
 
 
