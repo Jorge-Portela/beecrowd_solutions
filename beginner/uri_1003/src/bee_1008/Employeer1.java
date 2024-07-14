@@ -14,6 +14,7 @@ package bee_1008;
  * equal signal.
  * */
 
+import java.sql.SQLOutput;
 import java.util.Locale;
 import java.util.Scanner;
 
@@ -32,6 +33,7 @@ public class Employeer1 {
         double monthSalary= (double) workHoursMonth * amountPerHour;
 
         System.out.println("Employer Number: " + employerNumber);
+        System.out.printf("Employer Salary = $ %.2f ", monthSalary);
 
 
 
