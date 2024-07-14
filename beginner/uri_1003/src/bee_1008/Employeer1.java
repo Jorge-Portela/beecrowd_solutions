@@ -14,5 +14,13 @@ package bee_1008;
  * equal signal.
  * */
 
+import java.util.Locale;
+
 public class Employeer1 {
+    public static void main(String[] args){
+        Locale.setDefault(Locale.US);
+
+        
+
+    }
 }
