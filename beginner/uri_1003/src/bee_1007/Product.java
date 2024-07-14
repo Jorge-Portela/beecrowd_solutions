@@ -22,7 +22,7 @@ public class Product {
         int D = reader.nextInt();
 
         int diference = (A * B) + (C * D);
-        
+
         System.out.println("DIFERENCE = "+ diference);
 
         reader.close();
