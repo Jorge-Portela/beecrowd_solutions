@@ -26,7 +26,8 @@ public class Employeer1 {
         int number = reader.nextInt();
         System.out.println("Enter employer month's worked hours: ");
         int workHoursMonth = reader.nextInt();
-
+        System.out.println("Enter amount $ employer receive per hour: ");
+        double amountPerHour = reader.nextDouble();
 
 
 
