@@ -18,6 +18,7 @@ public class Product {
 
         int A = reader.nextInt();
         int B = reader.nextInt();
+        int C = reader.nextInt();
 
         reader.close();
 
