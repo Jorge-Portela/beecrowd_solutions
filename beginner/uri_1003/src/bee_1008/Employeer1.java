@@ -29,6 +29,10 @@ public class Employeer1 {
         System.out.println("Enter amount $ employer receive per hour: ");
         double amountPerHour = reader.nextDouble();
 
+        double monthSalary= (double) workHoursMonth * amountPerHour;
+
+        
+
 
 
         reader.close();
