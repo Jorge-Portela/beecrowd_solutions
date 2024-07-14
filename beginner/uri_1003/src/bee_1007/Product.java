@@ -16,6 +16,8 @@ public class Product {
         Locale.setDefault(Locale.US);
         Scanner reader = new Scanner(System.in);
 
+        int A = reader.nextInt();
+
         reader.close();
 
 
