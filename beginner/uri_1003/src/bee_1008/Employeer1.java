@@ -25,9 +25,9 @@ public class Employeer1 {
         System.out.print("Enter employer number: ");
         int number = reader.nextInt();
         System.out.println("Enter employer month's worked hours: ");
-        int workHours = reader.nextInt();
+        int workHoursMonth = reader.nextInt();
 
-        
+
 
 
         reader.close();
