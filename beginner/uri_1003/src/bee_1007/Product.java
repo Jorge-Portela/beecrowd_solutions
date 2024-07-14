@@ -20,7 +20,11 @@ public class Product {
         int B = reader.nextInt();
         int C = reader.nextInt();
         int D = reader.nextInt();
+
+        int diference = (A * B) + (C * D);
         
+        System.out.println("DIFERENCE = "+ diference);
+
         reader.close();
 
 
