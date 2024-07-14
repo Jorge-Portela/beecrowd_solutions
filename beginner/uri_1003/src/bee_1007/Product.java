@@ -9,13 +9,15 @@ package bee_1007;
  * */
 
 import java.util.Locale;
-
+import java.util.Scanner;
 
 public class Product {
     public static void main(String[] args) {
         Locale.setDefault(Locale.US);
+        Scanner reader = new Scanner(System.in);
 
-        
+        reader.close();
+
 
     }
 }
