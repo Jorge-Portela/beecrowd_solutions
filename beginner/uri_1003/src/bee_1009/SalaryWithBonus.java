@@ -18,7 +18,7 @@ public class SalaryWithBonus {
         Scanner reader = new Scanner(System.in);
 
         String sellerName = reader.nextLine();
-        reader.nextLine();
+        
         double fixedSalary = reader.nextDouble();
         double totalSales = reader.nextDouble();
 
