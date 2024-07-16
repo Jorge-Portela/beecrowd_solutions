@@ -15,5 +15,12 @@ package bee_1010;
  *
  * */
 
+import java.util.Locale;
+
+
 public class SimpleCalculate {
+    public static void main(String[] args) {
+
+        Locale.setDefault(Locale.US);
+    }
 }
