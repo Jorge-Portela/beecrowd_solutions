@@ -10,10 +10,15 @@ package bee_1009;
  * */
 
 import java.util.Locale;
+import java.util.Scanner;
 
 public class SalaryWithBonus {
     public static void main(String[] args) {
         Locale.setDefault(Locale.US);
+        Scanner reader = new Scanner(System.in);
+
+
         
+        reader.close();
     }
 }
