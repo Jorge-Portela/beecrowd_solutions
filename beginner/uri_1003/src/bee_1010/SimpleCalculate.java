@@ -25,7 +25,7 @@ public class SimpleCalculate {
         Scanner reader = new Scanner(System.in);
 
         int productCode1 = reader.nextInt();
-
+        int productUnit1 = reader.nextInt();
         reader.close();
 
     }
