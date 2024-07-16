@@ -22,6 +22,8 @@ public class SalaryWithBonus {
         double fixedSalary = reader.nextDouble();
         double totalSales = reader.nextDouble();
 
+        double finalSalary = (fixedSalary + (totalSales * 0.15));
+
 
         reader.close();
     }
