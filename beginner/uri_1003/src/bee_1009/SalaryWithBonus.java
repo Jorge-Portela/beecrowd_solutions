@@ -9,8 +9,11 @@ package bee_1009;
  * salary and the total value sold by him/her.
  * */
 
+import java.util.Locale;
+
 public class SalaryWithBonus {
     public static void main(String[] args) {
+        Locale.setDefault(Locale.US);
         
     }
 }
