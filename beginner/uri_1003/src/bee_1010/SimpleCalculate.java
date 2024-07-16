@@ -26,6 +26,9 @@ public class SimpleCalculate {
 
         int productCode1 = reader.nextInt();
         int productUnit1 = reader.nextInt();
+        double productPrice1 = reader.nextDouble();
+        
+        System.out.println(productCode1 + " " + productUnit1);
         reader.close();
 
     }
