@@ -17,8 +17,11 @@ public class SalaryWithBonus {
         Locale.setDefault(Locale.US);
         Scanner reader = new Scanner(System.in);
 
-
+        String sellerName = reader.nextLine();
+        reader.nextLine();
         
+
+
         reader.close();
     }
 }
