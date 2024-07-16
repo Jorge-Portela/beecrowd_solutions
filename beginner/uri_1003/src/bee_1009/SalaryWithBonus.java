@@ -19,7 +19,7 @@ public class SalaryWithBonus {
 
         String sellerName = reader.nextLine();
         reader.nextLine();
-        
+        double fixedSalary = reader.nextDouble();
 
 
         reader.close();
