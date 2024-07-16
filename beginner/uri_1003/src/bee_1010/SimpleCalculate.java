@@ -24,7 +24,7 @@ public class SimpleCalculate {
         Locale.setDefault(Locale.US);
         Scanner reader = new Scanner(System.in);
 
-        int productCode = reader.nextInt();
+        int productCode1 = reader.nextInt();
 
         reader.close();
 
