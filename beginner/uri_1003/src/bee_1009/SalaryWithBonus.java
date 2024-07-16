@@ -18,12 +18,13 @@ public class SalaryWithBonus {
         Scanner reader = new Scanner(System.in);
 
         String sellerName = reader.nextLine();
-        
+
         double fixedSalary = reader.nextDouble();
         double totalSales = reader.nextDouble();
 
         double finalSalary = (fixedSalary + (totalSales * 0.15));
 
+        System.out.printf("TOTAL = R$ %.2f\n", finalSalary);
 
         reader.close();
     }
