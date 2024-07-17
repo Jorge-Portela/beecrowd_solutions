@@ -30,6 +30,7 @@ public class SimpleCalculate {
 
         int productCode2 = reader.nextInt();
         int productUnit2 = reader.nextInt();
+        double productPrice2 = reader.nextDouble();
 
         System.out.println(productCode1 + " " + productUnit1);
         reader.close();
