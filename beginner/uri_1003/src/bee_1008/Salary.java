@@ -18,7 +18,7 @@ package bee_1008;
 import java.util.Locale;
 import java.util.Scanner;
 
-public class Employeer1 {
+public class Salary {
     public static void main(String[] args){
         Locale.setDefault(Locale.US);
         Scanner reader = new Scanner(System.in);
