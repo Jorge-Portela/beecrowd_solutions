@@ -32,7 +32,10 @@ public class SimpleCalculate {
         int productUnit2 = reader.nextInt();
         double productPrice2 = reader.nextDouble();
 
-        System.out.println(productCode1 + " " + productUnit1);
+        double totalPayment = (productUnit1 * productPrice1) + (productUnit2 * productPrice2);
+
+        System.out.printf("VALOR A PAGAR: R$ %.2f\n",totalPayment);
+
         reader.close();
 
     }
