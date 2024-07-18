@@ -5,7 +5,7 @@ package bee_1012;
  * a) the area of the rectangle triangle that has base A and height C.
  * b) the area of the radius's circle C. (pi = 3.14159)
  * c) the area of the trapezium which has A and B by base, and C by height.
- * d) the area of ​​the square that has side B.
+ * d) the area of the square that has side B.
  * e) the area of the rectangle that has sides A and B.
  *
  *  //Input
@@ -35,7 +35,7 @@ public class Area {
         double rectangleTriangle = (A * C) / 2;
         double radiusCircle = PI * Math.pow(C,2);
         double trapeziumArea = ((A + B) * C) / 2;
-        
+        double squareArea = B * B;
         reader.close();
 
     }
