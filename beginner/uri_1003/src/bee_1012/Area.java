@@ -2,7 +2,7 @@ package bee_1012;
 
 /**
  *Make a program that reads three floating point values: A, B and C. Then, calculate and show:
- * a) the area of the rectangled triangle that has base A and height C.
+ * a) the area of the rectangle triangle that has base A and height C.
  * b) the area of the radius's circle C. (pi = 3.14159)
  * c) the area of the trapezium which has A and B by base, and C by height.
  * d) the area of ​​the square that has side B.
@@ -26,12 +26,14 @@ public class Area {
         Locale.setDefault(Locale.US);
         Scanner reader = new Scanner(System.in);
 
+        final double PI = 3.14159;
+
         double A = reader.nextDouble();
         double B = reader.nextDouble();
         double C = reader.nextDouble();
 
         double rectangleTriangle = (A * C) / 2;
-
+        double radiusCircle =
         reader.close();
 
     }
