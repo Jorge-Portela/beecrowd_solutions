@@ -30,6 +30,8 @@ public class Area {
         double B = reader.nextDouble();
         double C = reader.nextDouble();
 
+        double rectangleTriangle = (A * C) / 2;
+
         reader.close();
 
     }
