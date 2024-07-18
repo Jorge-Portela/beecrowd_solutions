@@ -26,6 +26,10 @@ public class Area {
         Locale.setDefault(Locale.US);
         Scanner reader = new Scanner(System.in);
 
+        double A = reader.nextDouble();
+        double B = reader.nextDouble();
+        double C = reader.nextDouble();
+
         reader.close();
 
     }
