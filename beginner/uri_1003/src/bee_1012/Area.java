@@ -18,6 +18,7 @@ package bee_1012;
  *
  * */
 
+import java.sql.SQLOutput;
 import java.util.Locale;
 import java.util.Scanner;
 
@@ -36,6 +37,16 @@ public class Area {
         double radiusCircle = PI * Math.pow(C,2);
         double trapeziumArea = ((A + B) * C) / 2;
         double squareArea = B * B;
+        double rectangleArea = A * B;
+
+        System.out.printf("TRIANGULO: %.3f\n",rectangleTriangle);
+        System.out.printf("CIRCULO: %.3f\n",radiusCircle);
+        System.out.printf("TRAPEZIO: %.3f\n",trapeziumArea);
+        System.out.printf("QUADRADO: %.3f\n",squareArea);
+        System.out.printf("RETANGULO: %.3f\n",rectangleArea);
+
+
+
         reader.close();
 
     }
