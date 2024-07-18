@@ -33,7 +33,8 @@ public class Area {
         double C = reader.nextDouble();
 
         double rectangleTriangle = (A * C) / 2;
-        double radiusCircle =
+        double radiusCircle = PI * Math.pow(C,2);
+        
         reader.close();
 
     }
