@@ -19,11 +19,14 @@ package bee_1012;
  * */
 
 import java.util.Locale;
+import java.util.Scanner;
 
 public class Area {
     public static void main(String[] args) {
         Locale.setDefault(Locale.US);
+        Scanner reader = new Scanner(System.in);
 
-        
+        reader.close();
+
     }
 }
