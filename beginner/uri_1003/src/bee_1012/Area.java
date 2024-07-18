@@ -34,6 +34,7 @@ public class Area {
 
         double rectangleTriangle = (A * C) / 2;
         double radiusCircle = PI * Math.pow(C,2);
+        double trapeziumArea = ((A + B) * C) / 2;
         
         reader.close();
 
