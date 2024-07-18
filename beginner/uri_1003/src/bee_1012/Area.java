@@ -18,7 +18,7 @@ package bee_1012;
  *
  * */
 
-import java.sql.SQLOutput;
+
 import java.util.Locale;
 import java.util.Scanner;
 
@@ -44,8 +44,6 @@ public class Area {
         System.out.printf("TRAPEZIO: %.3f\n",trapeziumArea);
         System.out.printf("QUADRADO: %.3f\n",squareArea);
         System.out.printf("RETANGULO: %.3f\n",rectangleArea);
-
-
 
         reader.close();
 
