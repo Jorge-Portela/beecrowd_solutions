@@ -18,6 +18,12 @@ package bee_1012;
  *
  * */
 
+import java.util.Locale;
 
 public class Area {
+    public static void main(String[] args) {
+        Locale.setDefault(Locale.US);
+
+        
+    }
 }
