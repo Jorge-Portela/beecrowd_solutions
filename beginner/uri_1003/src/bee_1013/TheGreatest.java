@@ -13,8 +13,11 @@ package bee_1013;
  *
  * */
 
+import java.util.Locale;
+
 public class TheGreatest {
     public static void main(String[] args) {
-        
+        Locale.setDefault(Locale.US);
+
     }
 }
