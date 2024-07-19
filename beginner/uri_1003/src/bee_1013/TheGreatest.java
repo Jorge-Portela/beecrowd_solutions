@@ -25,7 +25,12 @@ public class TheGreatest {
         int B = reader.nextInt();
         int C = reader.nextInt();
 
-        System.out.println(higherNUmber + " eh o maior");
+        int higherNumber = 0;
+            if (higherNumber  = (A + B  + Math.abs(A - B)) / 2 ){
+                System.out.println( higherNumber );
+            }
+
+        System.out.println(higherNumber + " eh o maior");
         reader.close();
     }
 }
