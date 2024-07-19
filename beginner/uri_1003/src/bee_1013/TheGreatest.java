@@ -25,6 +25,7 @@ public class TheGreatest {
         int B = reader.nextInt();
         int C = reader.nextInt();
 
+        System.out.println(higherNUmber + " eh o maior");
         reader.close();
     }
 }
