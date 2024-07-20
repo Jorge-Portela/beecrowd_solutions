@@ -24,7 +24,9 @@ public class Consumption {
 
         int X = reader.nextInt();
         double Y = reader.nextDouble();
-        
+
+        double averageConsumption = Y/X;
+
         reader.close();
     }
 }
