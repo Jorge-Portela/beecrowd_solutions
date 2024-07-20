@@ -27,6 +27,8 @@ public class Consumption {
 
         double averageConsumption = Y/X;
 
+        System.out.printf("%.3f km/l\n", averageConsumption);
+
         reader.close();
     }
 }
