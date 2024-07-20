@@ -25,12 +25,13 @@ public class TheGreatest {
         int B = reader.nextInt();
         int C = reader.nextInt();
 
-        int higherNumber = 0;
-            if (higherNumber  = (A + B  + Math.abs(A - B)) / 2 ){
-                System.out.println( higherNumber );
-            }
+        int higherNumberB  = (A + B  + Math.abs(A - B)) / 2;
+        int higherNumberC  = (A + C  + Math.abs(A - C)) / 2;
+        int higherNumberA = A;
 
-        System.out.println(higherNumber + " eh o maior");
+        if(higherNumberA < higherNumberB && higherNumberB < higherNumberC) {
+            System.out.println(higherNumberC + " eh o maior");
+        } else if(higherNumberA < higherNumberB && higherNumberB < higherNumberC){}
         reader.close();
     }
 }
