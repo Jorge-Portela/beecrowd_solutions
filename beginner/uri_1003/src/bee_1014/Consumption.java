@@ -25,7 +25,7 @@ public class Consumption {
         int X = reader.nextInt();
         double Y = reader.nextDouble();
 
-        double averageConsumption = Y/X;
+        double averageConsumption = X/Y;
 
         System.out.printf("%.3f km/l\n", averageConsumption);
 
