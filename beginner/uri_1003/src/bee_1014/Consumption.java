@@ -21,7 +21,9 @@ public class Consumption {
     public static void main(String[] args) {
         Locale.setDefault(Locale.US);
         Scanner reader = new Scanner(System.in);
-        
+
+        int X = reader.nextInt();
+
         reader.close();
     }
 }
