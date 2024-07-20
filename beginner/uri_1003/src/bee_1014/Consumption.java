@@ -23,7 +23,8 @@ public class Consumption {
         Scanner reader = new Scanner(System.in);
 
         int X = reader.nextInt();
-
+        double Y = reader.nextDouble();
+        
         reader.close();
     }
 }
