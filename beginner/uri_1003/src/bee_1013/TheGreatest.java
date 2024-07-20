@@ -13,6 +13,7 @@ package bee_1013;
  *
  * */
 
+import java.sql.SQLOutput;
 import java.util.Locale;
 import java.util.Scanner;
 
@@ -25,13 +26,13 @@ public class TheGreatest {
         int B = reader.nextInt();
         int C = reader.nextInt();
 
-        int higherNumberB  = (A + B  + Math.abs(A - B)) / 2;
-        int higherNumberC  = (A + C  + Math.abs(A - C)) / 2;
-        int higherNumberA = A;
-
-        if(higherNumberA < higherNumberB && higherNumberB < higherNumberC) {
-            System.out.println(higherNumberC + " eh o maior");
-        } else if(higherNumberA < higherNumberB && higherNumberB < higherNumberC){}
+       if(A < B && B > C){
+           System.out.println(B + " eh o maior");
+       } else if(C > A && C > B){
+           System.out.println(C + " eh o maior");
+       } else {
+           System.out.println(A + " eh o maior");
+       }
         reader.close();
     }
 }
