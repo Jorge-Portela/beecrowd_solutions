@@ -2,9 +2,7 @@ package bee_1013;
 
 /**
  * Make a program that reads 3 integer values and present the greatest one followed by the message "eh o maior".
- * Use the following formula:
- *
- *
+ * 
  * Input
  * The input file contains 3 integer values.
  *
@@ -12,7 +10,6 @@ package bee_1013;
  * Print the greatest of these three values followed by a space and the message “eh o maior”.
  *
  * */
-
 
 import java.util.Locale;
 import java.util.Scanner;
