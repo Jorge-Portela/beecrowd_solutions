@@ -23,6 +23,7 @@ public class DistanceBetweenTwoPoints {
         Scanner reader = new Scanner(System.in);
 
         double X1 = reader.nextDouble();
+        double Y1 = reader.nextDouble();
 
         reader.close();
     }
