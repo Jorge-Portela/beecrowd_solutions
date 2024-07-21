@@ -15,10 +15,13 @@ package bee_1015;
  * */
 
 import java.util.Locale;
-
+import java.util.Scanner;
 public class DistanceBetweenTwoPoints {
     public static void main(String[] args) {
 
         Locale.setDefault(Locale.US);
+        Scanner reader = new Scanner(System.in);
+
+        reader.close();
     }
 }
