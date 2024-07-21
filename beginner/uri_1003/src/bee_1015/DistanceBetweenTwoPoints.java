@@ -27,6 +27,11 @@ public class DistanceBetweenTwoPoints {
         double X2 = reader.nextDouble();
         double Y2 = reader.nextDouble();
 
+        double distance = Math.sqrt(Math.pow((X2 - X1), 2) + Math.pow((Y2 - Y1),2));
+
+        System.out.printf("%.4f\n",distance);
+
+
         reader.close();
     }
 }
