@@ -22,6 +22,8 @@ public class DistanceBetweenTwoPoints {
         Locale.setDefault(Locale.US);
         Scanner reader = new Scanner(System.in);
 
+        double X1 = reader.nextDouble();
+
         reader.close();
     }
 }
