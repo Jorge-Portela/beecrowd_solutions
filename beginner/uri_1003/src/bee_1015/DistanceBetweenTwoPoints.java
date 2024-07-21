@@ -24,6 +24,7 @@ public class DistanceBetweenTwoPoints {
 
         double X1 = reader.nextDouble();
         double Y1 = reader.nextDouble();
+        double X2 = reader.nextDouble();
 
         reader.close();
     }
