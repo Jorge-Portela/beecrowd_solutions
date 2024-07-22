@@ -20,10 +20,13 @@ package bee_1016;
  * */
 
 import java.util.Locale;
-
+import java.util.Scanner;
 
 public class Distance {
     public static void main(String[] args) {
         Locale.setDefault(Locale.US);
+        Scanner reader = new Scanner(System.in);
+
+        reader.close();
     }
 }
