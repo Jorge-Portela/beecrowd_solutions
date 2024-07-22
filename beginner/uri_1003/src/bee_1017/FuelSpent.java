@@ -26,6 +26,9 @@ public class FuelSpent {
 
         int hoursTravelled = reader.nextInt();
         int spaceTravelled = reader.nextInt();
+
+        double totalFuelSpent = ( (double) hoursTravelled * spaceTravelled) / SPENTFUEL;
+
         reader.close();
     }
 }
