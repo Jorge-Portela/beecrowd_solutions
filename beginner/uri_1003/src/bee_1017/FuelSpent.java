@@ -1,5 +1,7 @@
 package bee_1017;
 
+import java.util.Locale;
+
 /**
  * Little John wants to calculate and show the amount of spent fuel liters on a trip, using a car that does 12 Km/L.
  * For this, he would like you to help him through a simple program. To perform the calculation, you have to read spent
@@ -16,6 +18,6 @@ package bee_1017;
 
 public class FuelSpent {
     public static void main(String[] args) {
-        
+        Locale.setDefault(Locale.US);
     }
 }
