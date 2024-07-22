@@ -27,6 +27,9 @@ public class Distance {
         Locale.setDefault(Locale.US);
         Scanner reader = new Scanner(System.in);
 
+        int travelledDistance = reader.nextInt();
+
+        
         reader.close();
     }
 }
