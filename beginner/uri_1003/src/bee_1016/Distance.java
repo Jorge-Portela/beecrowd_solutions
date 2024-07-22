@@ -19,8 +19,11 @@ package bee_1016;
  *
  * */
 
+import java.util.Locale;
+
+
 public class Distance {
     public static void main(String[] args) {
-        
+        Locale.setDefault(Locale.US);
     }
 }
