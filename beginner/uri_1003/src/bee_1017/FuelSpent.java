@@ -22,6 +22,9 @@ public class FuelSpent {
         Locale.setDefault(Locale.US);
         Scanner reader = new Scanner(System.in);
 
+        final int SPENTFUEL = 12;
+
+        
         reader.close();
     }
 }
