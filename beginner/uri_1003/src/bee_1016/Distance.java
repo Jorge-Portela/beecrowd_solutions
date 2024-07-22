@@ -29,7 +29,7 @@ public class Distance {
 
         int travelledDistance = reader.nextInt();
 
-        
+        int timeOfDistance = travelledDistance * 2;
         reader.close();
     }
 }
