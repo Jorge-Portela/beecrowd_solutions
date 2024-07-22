@@ -29,6 +29,7 @@ public class FuelSpent {
 
         double totalFuelSpent = ( (double) hoursTravelled * spaceTravelled) / SPENTFUEL;
 
+        System.out.printf("%.3f\n", totalFuelSpent);
         reader.close();
     }
 }
