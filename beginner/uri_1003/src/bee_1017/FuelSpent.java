@@ -25,7 +25,7 @@ public class FuelSpent {
         final int SPENTFUEL = 12;
 
         int hoursTravelled = reader.nextInt();
-
+        int spaceTravelled = reader.nextInt();
         reader.close();
     }
 }
