@@ -30,6 +30,10 @@ public class Distance {
         int travelledDistance = reader.nextInt();
 
         int timeOfDistance = travelledDistance * 2;
+
+        System.out.println(timeOfDistance + " minutos");
+
         reader.close();
+
     }
 }
