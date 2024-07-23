@@ -14,10 +14,12 @@ package bee_1018;
  *
  * */
 
+import java.util.Locale;
 import java.util.Scanner;
+
 public class Banknotes {
     public static void main(String[] args) {
-
+        Locale.setDefault(Locale.US);
         Scanner reader = new Scanner(System.in);
 
         reader.close();
