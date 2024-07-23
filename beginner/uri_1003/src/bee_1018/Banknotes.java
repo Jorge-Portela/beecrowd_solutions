@@ -14,8 +14,13 @@ package bee_1018;
  *
  * */
 
+import java.util.Scanner;
 public class Banknotes {
     public static void main(String[] args) {
-        
+
+        Scanner reader = new Scanner(System.in);
+
+        reader.close();
+
     }
 }
