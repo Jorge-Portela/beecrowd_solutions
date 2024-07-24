@@ -22,6 +22,30 @@ public class Banknotes {
         Locale.setDefault(Locale.US);
         Scanner reader = new Scanner(System.in);
 
+        int banknoteEntered = reader.nextInt();
+
+        int oneHundredBanknotes = banknoteEntered / 100;
+
+        int fiftyBanknotes = (banknoteEntered % (oneHundredBanknotes * 100) ) / 50 ;
+
+        int twentyBanknotes = (banknoteEntered - ((oneHundredBanknotes * 100) + 50) ) / 20;
+
+        int tenBanknotes = ( banknoteEntered - (( oneHundredBanknotes * 100)  + 70 )) / 10;
+
+        int fiveBanknotes = (banknoteEntered - (( oneHundredBanknotes * 100)  + 80 )) / 5;
+
+        int twoBanknotes = (banknoteEntered - (( oneHundredBanknotes * 100)  + 95 )) / 2;
+
+        int oneBanknotes = (banknoteEntered - (( oneHundredBanknotes * 100)  + 97 )) / 1;
+
+        System.out.println( Math.abs(oneHundredBanknotes)+ " nota (s) de R$ 100,00");
+        System.out.println( Math.abs(fiftyBanknotes)  + " nota (s) de R$ 50,00");
+        System.out.println(Math.abs(twentyBanknotes)  + " nota (s) de R$ 20,00");
+        System.out.println(tenBanknotes  + " nota (s) de R$ 10,00");
+        System.out.println(fiveBanknotes  + " nota (s) de R$ 5,00");
+        System.out.println(twoBanknotes  + " nota (s) de R$ 2,00");
+        System.out.println(oneBanknotes  + " nota (s) de R$ 1,00");
+
         reader.close();
 
     }
