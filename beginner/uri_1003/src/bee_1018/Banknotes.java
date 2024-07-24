@@ -25,28 +25,31 @@ public class Banknotes {
         int banknoteEntered = reader.nextInt();
 
         int oneHundredBanknotes = banknoteEntered / 100;
-        int restOfOneHundredBanknotes = banknoteEntered % 100;
+        System.out.println( oneHundredBanknotes+ " nota(s) de R$ 100,00");
+
+
+        int restOfOneHundredBanknotes =  banknoteEntered - (oneHundredBanknotes *100);
 
         int fiftyBanknotes = restOfOneHundredBanknotes / 50 ;
-        int restOfFiftyBanknotes = banknoteEntered % 150;
+        System.out.println( oneHundredBanknotes+ " nota(s) de R$ 50,00");
+
+
+        int restOfFiftyBanknotes = (restOfOneHundredBanknotes - 50);
 
         int twentyBanknotes = restOfFiftyBanknotes  / 20;
 
-        int tenBanknotes = ( banknoteEntered % ( twentyBanknotes  * 20 )) / 10;
+        int restOftwentyBanknotes = (restOfFiftyBanknotes - (50 +20));
 
-        int fiveBanknotes = (banknoteEntered - (( oneHundredBanknotes * 100)  + 80 )) / 5;
+        int tenBanknotes = restOftwentyBanknotes / 10;
 
-        int twoBanknotes = (banknoteEntered - (( oneHundredBanknotes * 100)  + 95 )) / 2;
-
-        int oneBanknotes = (banknoteEntered - (( oneHundredBanknotes * 100)  + 97 )) / 1;
-
-        System.out.println( Math.abs(oneHundredBanknotes)+ " nota (s) de R$ 100,00");
         System.out.println( Math.abs(fiftyBanknotes)  + " nota (s) de R$ 50,00");
         System.out.println(Math.abs(twentyBanknotes)  + " nota (s) de R$ 20,00");
         System.out.println(tenBanknotes  + " nota (s) de R$ 10,00");
-        System.out.println(fiveBanknotes  + " nota (s) de R$ 5,00");
+        /*System.out.println(fiveBanknotes  + " nota (s) de R$ 5,00");
         System.out.println(twoBanknotes  + " nota (s) de R$ 2,00");
         System.out.println(oneBanknotes  + " nota (s) de R$ 1,00");
+
+         */
 
         reader.close();
 
