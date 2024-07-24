@@ -25,7 +25,7 @@ public class Banknotes {
         int banknoteEntered = reader.nextInt();
 
         int oneHundredBanknotes = banknoteEntered / 100;
-
+        int restOfOneHundredBanknotes = banknoteEntered % 100;
         int fiftyBanknotes = (banknoteEntered - (oneHundredBanknotes * 100)) / 50 ;
 
         int twentyBanknotes = (banknoteEntered % (fiftyBanknotes * 50))  / 20;
