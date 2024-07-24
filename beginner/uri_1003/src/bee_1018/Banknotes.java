@@ -30,7 +30,7 @@ public class Banknotes {
 
         int twentyBanknotes = (banknoteEntered % (fiftyBanknotes * 50))  / 20;
 
-        int tenBanknotes = ( banknoteEntered - (( oneHundredBanknotes * 100)  + 70 )) / 10;
+        int tenBanknotes = ( banknoteEntered % ( twentyBanknotes  * 20 )) / 10;
 
         int fiveBanknotes = (banknoteEntered - (( oneHundredBanknotes * 100)  + 80 )) / 5;
 
