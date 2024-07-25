@@ -37,7 +37,7 @@ public class Banknotes {
 
         int twentyBanknotes = restOfFiftyBanknotes  / 20;
 
-        int restOftwentyBanknotes = (restOfFiftyBanknotes - (50 +20));
+        int restOftwentyBanknotes = ((restOfFiftyBanknotes % 20) - 20);
 
         int tenBanknotes = restOftwentyBanknotes / 10;
 
