@@ -37,10 +37,10 @@ public class Banknotes {
 
         int twentyBanknotes = restOfFiftyBanknotes  / 20;
         if (twentyBanknotes <= 0) {
-            System.out.println("0 nota (s) de R$ 10,00");
+            System.out.println("0 nota (s) de R$ 20,00");
         } else {
             System.out.println(Math.abs(twentyBanknotes)  + " nota (s) de R$ 20,00");
-            
+
         }
 
 
