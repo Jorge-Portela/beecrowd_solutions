@@ -30,7 +30,7 @@ public class Banknotes {
 
         int restOfOneHundredBanknotes =  banknoteEntered - (oneHundredBanknotes *100);
 
-        int fiftyBanknotes = restOfOneHundredBanknotes / 50 ;
+        double fiftyBanknotes = restOfOneHundredBanknotes / 50 ;
 
 
         double restOfFiftyBanknotes = ((restOfOneHundredBanknotes % 50) - 50);
