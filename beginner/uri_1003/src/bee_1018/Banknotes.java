@@ -28,7 +28,7 @@ public class Banknotes {
         System.out.println( oneHundredBanknotes+ " nota(s) de R$ 100,00");
 
 
-        int restOfOneHundredBanknotes =  banknoteEntered - (oneHundredBanknotes *100);
+        double restOfOneHundredBanknotes =  banknoteEntered - (oneHundredBanknotes *100);
 
         double fiftyBanknotes = restOfOneHundredBanknotes / 50 ;
 
