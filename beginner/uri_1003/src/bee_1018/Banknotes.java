@@ -25,7 +25,7 @@ public class Banknotes {
         int banknoteEntered = reader.nextInt();
 
         double oneHundredBanknotes = banknoteEntered / 100;
-        System.out.println( oneHundredBanknotes+ " nota(s) de R$ 100,00");
+        System.out.printf(" %.0f nota(s) de R$ 100,00", oneHundredBanknotes );
 
 
         double restOfOneHundredBanknotes =  banknoteEntered - (oneHundredBanknotes *100);
