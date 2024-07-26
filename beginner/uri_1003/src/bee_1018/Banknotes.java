@@ -39,7 +39,7 @@ public class Banknotes {
         System.out.println("0 nota (s) de R$ 20,00");
 
 
-        int restOftwentyBanknotes = ((restOfFiftyBanknotes % 20) - 20);
+        double restOftwentyBanknotes = ((restOfFiftyBanknotes % 20) - 20);
 
         double tenBanknotes = restOftwentyBanknotes / 10;
 
