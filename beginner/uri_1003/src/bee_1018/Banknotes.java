@@ -36,9 +36,9 @@ public class Banknotes {
         double restOfFiftyBanknotes = ((restOfOneHundredBanknotes % 50) - 50);
 
         double twentyBanknotes = restOfFiftyBanknotes  / 20;
-        System.out.printf("%.0f nota (s) de R$ 20,00",twentyBanknotes);
+        System.out.printf("%.0f nota (s) de R$ 20,00\n",twentyBanknotes);
 
-        System.out.printf(twentyBanknotes,"0 nota (s) de R$ 20,00");
+        System.out.println("0 nota (s) de R$ 20,00");
 
         double restOftwentyBanknotes = ((restOfFiftyBanknotes % 20) - 20);
 
