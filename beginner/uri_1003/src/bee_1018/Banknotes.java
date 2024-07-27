@@ -25,8 +25,14 @@ public class Banknotes {
         int banknoteEntered = reader.nextInt();
 
         double oneHundredBanknotes = banknoteEntered / 100;
-        System.out.printf(" %.0f nota(s) de R$ 100,00\n", oneHundredBanknotes );
+      if(oneHundredBanknotes <= 0){
+          System.out.println("0 nota(s) de R$ 100,00\n");
 
+      } else {
+          System.out.printf(" %.0f nota(s) de R$ 100,00\n", oneHundredBanknotes );
+      }
+
+        int restOfDivision = 
 
         double restOfOneHundredBanknotes =  banknoteEntered - (oneHundredBanknotes *100);
 
