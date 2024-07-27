@@ -34,8 +34,8 @@ public class Banknotes {
 
         int restOfDivision = banknoteEntered % 100;
 
-        double restOfOneHundredBanknotes =  banknoteEntered - (oneHundredBanknotes *100);
-
+        /*double restOfOneHundredBanknotes =  banknoteEntered - (oneHundredBanknotes *100);*/
+        
         double fiftyBanknotes = restOfOneHundredBanknotes / 50 ;
 
 
