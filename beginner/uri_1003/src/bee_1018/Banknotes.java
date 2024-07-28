@@ -43,7 +43,7 @@ public class Banknotes {
             System.out.println( "0 nota (s) de R$ 50,00");
 
         } else {
-            System.out.println( Math.abs(fiftyBanknotes)  + " nota (s) de R$ 50,00");
+            System.out.printf( " %.0f nota (s) de R$ 50,00\n", fiftyBanknotes);
 
         }
         /*double restOfFiftyBanknotes = ((restOfOneHundredBanknotes % 50) - 50);*/
