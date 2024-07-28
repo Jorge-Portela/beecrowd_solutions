@@ -40,7 +40,7 @@ public class Banknotes {
         restOfDivision = restOfDivision % 50;
 
         if(fiftyBanknotes <= 0){
-            System.out.println( Math.abs(fiftyBanknotes)  + " nota (s) de R$ 50,00");
+            System.out.println( "0 nota (s) de R$ 50,00");
 
         } else {
             System.out.println( Math.abs(fiftyBanknotes)  + " nota (s) de R$ 50,00");
@@ -53,16 +53,18 @@ public class Banknotes {
 
         System.out.println("0 nota (s) de R$ 20,00");
 
-        double restOftwentyBanknotes = ((restOfFiftyBanknotes % 20) - 20);
+        //double restOftwentyBanknotes = ((restOfFiftyBanknotes % 20) - 20);
 
-        double tenBanknotes = restOftwentyBanknotes / 10;
+        //double tenBanknotes = restOftwentyBanknotes / 10;
 
-        if(tenBanknotes > 0){
+        /*if(tenBanknotes > 0){
             System.out.println("0 nota (s) de R$ 10,00");
         } else {
             System.out.println(tenBanknotes  + " nota (s) de R$ 10,00");
 
         }
+
+         */
 
         /*System.out.println(fiveBanknotes  + " nota (s) de R$ 5,00");
         System.out.println(twoBanknotes  + " nota (s) de R$ 2,00");
