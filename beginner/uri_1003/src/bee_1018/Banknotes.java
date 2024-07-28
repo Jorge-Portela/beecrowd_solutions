@@ -27,7 +27,6 @@ public class Banknotes {
         double oneHundredBanknotes = banknoteEntered / 100;
         if(oneHundredBanknotes <= 0){
           System.out.println("0 nota(s) de R$ 100,00\n");
-
         } else {
           System.out.printf("%.0f nota(s) de R$ 100,00\n", oneHundredBanknotes );
         }
@@ -41,17 +40,18 @@ public class Banknotes {
 
         if(fiftyBanknotes <= 0){
             System.out.println( "0 nota (s) de R$ 50,00");
-
         } else {
             System.out.printf( "%.0f nota (s) de R$ 50,00\n", fiftyBanknotes);
-
         }
         /*double restOfFiftyBanknotes = ((restOfOneHundredBanknotes % 50) - 50);*/
 
         double twentyBanknotes = restOfDivision  / 20;
-        System.out.printf("%.0f nota (s) de R$ 20,00\n",twentyBanknotes);
+        if(twentyBanknotes <= 0){
+            System.out.println("0 nota (s) de R$ 20,00");
+        } else {
+            System.out.printf("%.0f nota (s) de R$ 20,00\n",twentyBanknotes);
+        }
 
-        System.out.println("0 nota (s) de R$ 20,00");
 
         //double restOftwentyBanknotes = ((restOfFiftyBanknotes % 20) - 20);
 
