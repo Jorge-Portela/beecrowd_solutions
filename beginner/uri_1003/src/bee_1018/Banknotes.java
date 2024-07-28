@@ -29,7 +29,7 @@ public class Banknotes {
           System.out.println("0 nota(s) de R$ 100,00\n");
 
         } else {
-          System.out.printf(" %.0f nota(s) de R$ 100,00\n", oneHundredBanknotes );
+          System.out.printf("%.0f nota(s) de R$ 100,00\n", oneHundredBanknotes );
         }
 
         int restOfDivision = banknoteEntered % 100;
@@ -43,7 +43,7 @@ public class Banknotes {
             System.out.println( "0 nota (s) de R$ 50,00");
 
         } else {
-            System.out.printf( " %.0f nota (s) de R$ 50,00\n", fiftyBanknotes);
+            System.out.printf( "%.0f nota (s) de R$ 50,00\n", fiftyBanknotes);
 
         }
         /*double restOfFiftyBanknotes = ((restOfOneHundredBanknotes % 50) - 50);*/
