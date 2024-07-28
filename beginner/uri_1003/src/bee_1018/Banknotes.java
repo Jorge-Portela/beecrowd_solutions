@@ -46,6 +46,7 @@ public class Banknotes {
         /*double restOfFiftyBanknotes = ((restOfOneHundredBanknotes % 50) - 50);*/
 
         double twentyBanknotes = restOfDivision  / 20;
+        restOfDivision = restOfDivision % 20;
         if(twentyBanknotes <= 0){
             System.out.println("0 nota (s) de R$ 20,00");
         } else {
