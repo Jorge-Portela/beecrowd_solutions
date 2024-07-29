@@ -19,7 +19,9 @@ public class TimeConversion {
         Locale.setDefault(Locale.US);
         Scanner reader = new Scanner(System.in);
 
-        int timeMinuteEntered = reader.nextInt();
+        int timeSecondsEntered = reader.nextInt();
+
+        int timeHourTransformation = ;
 
         reader.close();
     }
