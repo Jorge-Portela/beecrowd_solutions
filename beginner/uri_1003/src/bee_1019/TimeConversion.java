@@ -23,7 +23,7 @@ public class TimeConversion {
 
         int timeMinuteTransformation = timeSecondsEntered / 60;
 
-        int timeHourTransformation = ;
+        int timeHourTransformation = timeSecondsEntered / 3600 ;
 
         reader.close();
     }
