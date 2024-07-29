@@ -19,6 +19,8 @@ import java.util.Locale;
 public class TimeConversion {
     public static void main(String[] args) {
         Locale.setDefault(Locale.US);
+        Scanner reader = new Scanner(System.in);
 
+        reader.close();
     }
 }
