@@ -1,7 +1,5 @@
 package bee_1019;
 
-import java.util.Locale;
-
 /**
  * Read an integer value, which is the duration in seconds of a certain event in a factory, and inform it expressed
  * in hours:minutes:seconds.
@@ -20,6 +18,8 @@ public class TimeConversion {
     public static void main(String[] args) {
         Locale.setDefault(Locale.US);
         Scanner reader = new Scanner(System.in);
+
+        int timeEntered = reader.nextInt();
 
         reader.close();
     }
