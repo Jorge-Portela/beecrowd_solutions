@@ -21,6 +21,8 @@ public class TimeConversion {
 
         int timeSecondsEntered = reader.nextInt();
 
+        int timeMinuteTransformation = timeSecondsEntered / 60;
+
         int timeHourTransformation = ;
 
         reader.close();
