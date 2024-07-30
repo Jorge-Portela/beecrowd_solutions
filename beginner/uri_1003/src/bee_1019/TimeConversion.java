@@ -22,10 +22,11 @@ public class TimeConversion {
         int N = reader.nextInt();
 
         int timeHourTransformation = N / 3600 ;
-        
+
+        int restOfTime = N  % 3600;
+
         int timeSecondTransformation = N % 60;
 
-        int restOfSecond = 60 - timeSecondTransformation;
 
         int timeMinuteTransformation =  restOfSecond + timeSecondTransformation % 60  ;
         //if(){}
