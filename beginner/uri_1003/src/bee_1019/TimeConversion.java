@@ -25,10 +25,11 @@ public class TimeConversion {
 
         int restOfTime = N  % 3600;
 
+        int timeMinuteTransformation =  restOfSecond + timeSecondTransformation % 60  ;
+
         int timeSecondTransformation = N % 60;
 
 
-        int timeMinuteTransformation =  restOfSecond + timeSecondTransformation % 60  ;
         //if(){}
 
         System.out.println(timeHourTransformation+":"+timeMinuteTransformation+":"+timeSecondTransformation);
