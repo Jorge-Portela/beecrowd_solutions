@@ -25,7 +25,7 @@ public class TimeConversion {
 
         int restOfTime = N  % 3600;
 
-        int timeMinuteTransformation =  restOfSecond + timeSecondTransformation % 60  ;
+        int timeMinuteTransformation =  restOfTime / 60  ;
 
         int timeSecondTransformation = N % 60;
 
