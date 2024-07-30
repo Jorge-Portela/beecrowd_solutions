@@ -28,8 +28,8 @@ public class TimeConversion {
         int timeMinuteTransformation =  restOfTime / 60  ;
 
         restOfTime = restOfTime % 60;
-        
-        int timeSecondTransformation = N % 60;
+
+        int timeSecondTransformation = restOfTime;
 
 
         //if(){}
