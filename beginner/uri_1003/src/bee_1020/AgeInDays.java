@@ -17,11 +17,15 @@ package bee_1020;
 
 import java.util.Scanner;
 import java.util.Locale;
-public class AgeinDays {
+
+public class AgeInDays {
     public static void main(String[] args) {
         Locale.setDefault(Locale.US);
-
         Scanner reader = new Scanner(System.in);
+
+        int age = reader.nextInt();
+
+
 
         reader.close();
     }
