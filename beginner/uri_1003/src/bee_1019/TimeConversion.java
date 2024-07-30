@@ -30,7 +30,7 @@ public class TimeConversion {
         restOfTime = restOfTime % 60;
 
         int timeSecondTransformation = restOfTime;
-        
+
         System.out.println(timeHourTransformation+":"+timeMinuteTransformation+":"+timeSecondTransformation);
 
         reader.close();
