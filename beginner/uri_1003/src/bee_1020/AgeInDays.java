@@ -25,6 +25,7 @@ public class AgeInDays {
 
         int age = reader.nextInt();
 
+        int convertorToYear = age / 365;
 
 
         reader.close();
