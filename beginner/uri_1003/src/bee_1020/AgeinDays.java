@@ -15,9 +15,14 @@ package bee_1020;
  * Print the output, like the following example.
  * */
 
-
+import java.util.Scanner;
+import java.util.Locale;
 public class AgeinDays {
     public static void main(String[] args) {
-        
+        Locale.setDefault(Locale.US);
+
+        Scanner reader = new Scanner(System.in);
+
+        reader.close();
     }
 }
