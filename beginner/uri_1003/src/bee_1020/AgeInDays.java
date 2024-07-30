@@ -27,6 +27,10 @@ public class AgeInDays {
 
         int convertorToYear = age / 365;
 
+        int modOfAge = age % 365;
+
+        int convertorToMonth = modOfAge / 12;
+        
 
         reader.close();
     }
