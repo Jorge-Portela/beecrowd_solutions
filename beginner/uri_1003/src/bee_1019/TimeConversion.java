@@ -19,11 +19,18 @@ public class TimeConversion {
         Locale.setDefault(Locale.US);
         Scanner reader = new Scanner(System.in);
 
-        int timeSecondsEntered = reader.nextInt();
+        int N = reader.nextInt();
 
-        int timeMinuteTransformation = timeSecondsEntered / 60;
+        int timeHourTransformation = N / 3600 ;
+        
+        int timeSecondTransformation = N % 60;
 
-        int timeHourTransformation = timeSecondsEntered / 3600 ;
+        int restOfSecond = 60 - timeSecondTransformation;
+
+        int timeMinuteTransformation =  restOfSecond + timeSecondTransformation % 60  ;
+        //if(){}
+
+        System.out.println(timeHourTransformation+":"+timeMinuteTransformation+":"+timeSecondTransformation);
 
         reader.close();
     }
