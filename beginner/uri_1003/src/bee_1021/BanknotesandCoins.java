@@ -1,6 +1,7 @@
 package bee_1021;
 
 import java.util.Locale;
+import java.util.Scanner;
 
 /**
  * Read a value of floating point with two decimal places. This represents a monetary value. After this, calculate
@@ -19,5 +20,8 @@ import java.util.Locale;
 public class BanknotesandCoins {
     public static void main(String[] args) {
         Locale.setDefault(Locale.US);
+        Scanner reader = new Scanner(System.in);
+
+        reader.close();
     }
 }
