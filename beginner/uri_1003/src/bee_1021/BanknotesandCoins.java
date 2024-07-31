@@ -14,4 +14,7 @@ package bee_1021;
 
 
 public class BanknotesandCoins {
+    public static void main(String[] args) {
+        
+    }
 }
