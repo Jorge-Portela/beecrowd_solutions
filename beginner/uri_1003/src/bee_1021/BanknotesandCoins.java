@@ -1,4 +1,7 @@
 package bee_1021;
+
+import java.util.Locale;
+
 /**
  * Read a value of floating point with two decimal places. This represents a monetary value. After this, calculate
  * the smallest possible number of notes and coins on which the value can be decomposed. The considered notes are
@@ -15,6 +18,6 @@ package bee_1021;
 
 public class BanknotesandCoins {
     public static void main(String[] args) {
-        
+        Locale.setDefault(Locale.US);
     }
 }
