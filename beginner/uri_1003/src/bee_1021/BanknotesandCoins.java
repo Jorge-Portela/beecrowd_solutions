@@ -27,7 +27,15 @@ public class BanknotesandCoins {
         double oneHundredBanknote = banknoteEntered / 100;
 
         double restOfBanknote = banknoteEntered % 100;
-        
+
+        double fiftyBanknote = restOfBanknote / 50;
+
+               restOfBanknote = restOfBanknote % 50;
+
+        double twentyBanknote = restOfBanknote / 20;
+
+              restOfBanknote = restOfBanknote % 20;
+
         reader.close();
     }
 }
