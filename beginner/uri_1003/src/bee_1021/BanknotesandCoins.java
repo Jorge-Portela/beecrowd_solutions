@@ -23,6 +23,8 @@ public class BanknotesandCoins {
         Scanner reader = new Scanner(System.in);
 
         double banknoteEntered = reader.nextDouble();
+
+        double oneHundredBanknote = banknoteEntered / 100;
         reader.close();
     }
 }
