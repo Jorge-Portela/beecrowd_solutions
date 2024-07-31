@@ -22,6 +22,7 @@ public class BanknotesandCoins {
         Locale.setDefault(Locale.US);
         Scanner reader = new Scanner(System.in);
 
+        double banknoteEntered = reader.nextDouble();
         reader.close();
     }
 }
