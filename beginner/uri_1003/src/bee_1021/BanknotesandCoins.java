@@ -25,6 +25,9 @@ public class BanknotesandCoins {
         double banknoteEntered = reader.nextDouble();
 
         double oneHundredBanknote = banknoteEntered / 100;
+
+        double restOfBanknote = banknoteEntered % 100;
+        
         reader.close();
     }
 }
