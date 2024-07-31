@@ -29,8 +29,16 @@ public class AgeInDays {
 
         int modOfAge = age % 365;
 
-        int convertorToMonth = modOfAge / 12;
-        
+        int convertorToMonth = modOfAge / 30;
+
+        modOfAge = modOfAge % 30;
+
+        int daysOfAge = modOfAge;
+
+        System.out.println(convertorToYear+" ano(s)");
+        System.out.println(convertorToMonth + " mes(es)");
+        System.out.println(daysOfAge + " dia(s)");
+
 
         reader.close();
     }
