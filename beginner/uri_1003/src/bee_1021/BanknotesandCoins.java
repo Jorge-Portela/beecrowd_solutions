@@ -63,6 +63,9 @@ public class BanknotesandCoins {
 
        restOfBanknote = restOfBanknote % 10;
 
+       double fiveCent = restOfBanknote / 5;
+       
+       restOfBanknote = restOfBanknote % 5;
 
         reader.close();
     }
