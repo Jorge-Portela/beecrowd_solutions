@@ -45,7 +45,7 @@ public class BanknotesandCoins {
 
                 restOfBanknote = restOfBanknote % 5;
 
-                
+        double twoBanknote = restOfBanknote / 2;
 
         reader.close();
     }
