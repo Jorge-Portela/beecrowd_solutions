@@ -70,6 +70,7 @@ public class BanknotesandCoins {
        double oneCent = restOfBanknote / 0.01;
 
         System.out.println("NOTAS:");
+        System.out.println(oneBanknote+" nota(s) de R$ 100.00");
 
 
 
