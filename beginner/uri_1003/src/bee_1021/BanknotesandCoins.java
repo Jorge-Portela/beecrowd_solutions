@@ -70,12 +70,14 @@ public class BanknotesandCoins {
        double oneCent = restOfBanknote / 0.01;
 
         System.out.println("NOTAS:");
-        System.out.println(oneBanknote+" nota(s) de R$ 100.00");
-        System.out.println(fiveBanknote+" nota(s) de R$ 50.00");
+        System.out.printf("%.0f nota(s) de R$ 100.00",oneHundredBanknote);
+        System.out.printf("%.0f nota(s) de R$ 50.00",fiftyBanknote);
         System.out.println(twentyBanknote+" nota(s) de R$ 20.00");
         System.out.println(tenBanknote+" nota(s) de R$ 10.00");
         System.out.println(fiveBanknote+" nota(s) de R$ 50.00");
         System.out.println(twoBanknote+" nota(s) de R$ 2.00");
+
+
 
 
 
