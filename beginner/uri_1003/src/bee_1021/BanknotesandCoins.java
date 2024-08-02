@@ -75,6 +75,10 @@ public class BanknotesandCoins {
         System.out.println(twentyBanknote+" nota(s) de R$ 20.00");
         System.out.println(tenBanknote+" nota(s) de R$ 10.00");
         System.out.println(fiveBanknote+" nota(s) de R$ 50.00");
+        System.out.println(twoBanknote+" nota(s) de R$ 2.00");
+
+
+
         reader.close();
     }
 }
