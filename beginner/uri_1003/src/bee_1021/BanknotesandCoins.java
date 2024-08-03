@@ -75,8 +75,8 @@ public class BanknotesandCoins {
        double oneCent = restOfBanknote / 0.01;
 
         System.out.println("NOTAS:");
-        System.out.println(df.format(oneHundredBanknote)+" nota(s) de R$ 100.00\n" );
-        System.out.printf("%.0f nota(s) de R$ 50.00\n",fiftyBanknote);
+        System.out.println(df.format(oneHundredBanknote)+" nota(s) de R$ 100.00" );
+        System.out.println(df.format(fiftyBanknote) + " nota(s) de R$ 50.00");
         System.out.println(twentyBanknote+" nota(s) de R$ 20.00");
         System.out.println(tenBanknote+" nota(s) de R$ 10.00");
         System.out.println(fiveBanknote+" nota(s) de R$ 50.00");
