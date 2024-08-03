@@ -1,5 +1,8 @@
 package bee_1021;
 
+import java.math.BigDecimal;
+import java.math.RoundingMode;
+import java.text.DecimalFormat;
 import java.util.Locale;
 import java.util.Scanner;
 
@@ -22,6 +25,8 @@ public class BanknotesandCoins {
         Locale.setDefault(Locale.US);
         Scanner reader = new Scanner(System.in);
 
+        DecimalFormat df = new DecimalFormat("0");
+        df.setRoundingMode(RoundingMode.FLOOR);
         double banknoteEntered = reader.nextDouble();
 
         double oneHundredBanknote = banknoteEntered / 100;
@@ -70,7 +75,7 @@ public class BanknotesandCoins {
        double oneCent = restOfBanknote / 0.01;
 
         System.out.println("NOTAS:");
-        System.out.printf("%.0f nota(s) de R$ 100.00\n", oneHundredBanknote);
+        System.out.println(df.format(oneHundredBanknote)+" nota(s) de R$ 100.00\n" );
         System.out.printf("%.0f nota(s) de R$ 50.00\n",fiftyBanknote);
         System.out.println(twentyBanknote+" nota(s) de R$ 20.00");
         System.out.println(tenBanknote+" nota(s) de R$ 10.00");
