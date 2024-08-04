@@ -82,7 +82,7 @@ public class BanknotesandCoins {
         System.out.println(df.format(fiveBanknote)+" nota(s) de R$ 5.00");
         System.out.println(df.format(twoBanknote)+" nota(s) de R$ 2.00");
         System.out.println("MOEDAS:");
-        System.out.println(df.format(oneCent)+" nota(s) de R$ 0.5");
+        System.out.println(df.format(oneCent)+" moeda(s) de R$ 1.0");
 
 
 
