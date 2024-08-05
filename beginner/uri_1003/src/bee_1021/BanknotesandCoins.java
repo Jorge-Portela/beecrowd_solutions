@@ -30,48 +30,37 @@ public class BanknotesandCoins {
         double banknoteEntered = reader.nextDouble();
 
         double oneHundredBanknote = banknoteEntered / 100;
-
         double restOfBanknote = banknoteEntered % 100;
 
         double fiftyBanknote = restOfBanknote / 50;
-
         restOfBanknote = restOfBanknote % 50;
 
         double twentyBanknote = restOfBanknote / 20;
-
         restOfBanknote = restOfBanknote % 20;
 
 
         double tenBanknote = restOfBanknote / 10;
-
         restOfBanknote = restOfBanknote % 10;
 
         double fiveBanknote = restOfBanknote / 5;
-
         restOfBanknote = restOfBanknote % 5;
 
         double twoBanknote = restOfBanknote / 2;
-
         restOfBanknote = restOfBanknote % 2;
 
         double oneBanknote = restOfBanknote ;
-
         restOfBanknote = restOfBanknote % 1;
 
         double fiftyCent = restOfBanknote / 0.50;
-
         restOfBanknote = restOfBanknote % 0.5;
 
         double twentyFiveCent = restOfBanknote / 0.25;
-
-       restOfBanknote = restOfBanknote % 0.25;
+        restOfBanknote = restOfBanknote % 0.25;
 
        double tenCent = restOfBanknote / 0.10;
-
        restOfBanknote = restOfBanknote % 0.10;
 
        double fiveCent = restOfBanknote / 0.05;
-
        restOfBanknote = restOfBanknote % 0.05;
 
        double oneCent = restOfBanknote / 0.01;
