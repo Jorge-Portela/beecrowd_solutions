@@ -1,6 +1,6 @@
 package bee_1021;
 
-import java.math.BigDecimal;
+
 import java.math.RoundingMode;
 import java.text.DecimalFormat;
 import java.util.Locale;
@@ -78,7 +78,7 @@ public class BanknotesandCoins {
 
         System.out.println("NOTAS:");
         System.out.println(df.format(oneHundredBanknote)+" nota(s) de R$ 100.00" );
-        System.out.println(df.format(fiftyBanknote) + " nota(s) de R$ 50.00");
+        System.out.println(df.format(fiftyBanknote)+" nota(s) de R$ 50.00");
         System.out.println(df.format(twentyBanknote)+" nota(s) de R$ 20.00");
         System.out.println(df.format(tenBanknote)+" nota(s) de R$ 10.00");
         System.out.println(df.format(fiveBanknote)+" nota(s) de R$ 5.00");
@@ -88,7 +88,7 @@ public class BanknotesandCoins {
         System.out.println(df.format(fiftyCent)+" moeda(s) de R$ 0.50");
         System.out.println(df.format(twentyFiveCent)+" moeda(s) de R$ 0.25");
         System.out.println(df.format(tenCent)+" moeda(s) de R$ 0.10");
-        System.out.println(df.format(fiveCent) +" moeda(s) de R$ 0.05");
+        System.out.println(df.format(fiveCent)+" moeda(s) de R$ 0.05");
         System.out.println(df.format(oneCent)+" moeda(s) de R$ 0.01");
         reader.close();
     }
