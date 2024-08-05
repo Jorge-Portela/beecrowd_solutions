@@ -66,7 +66,7 @@ public class BanknotesandCoins {
 
        restOfBanknote = restOfBanknote % 0.25;
 
-       double tenCent = restOfBanknote / 10;
+       double tenCent = restOfBanknote / 0.10;
 
        restOfBanknote = restOfBanknote % 10;
 
