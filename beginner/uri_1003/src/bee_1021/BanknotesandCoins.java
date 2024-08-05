@@ -87,9 +87,9 @@ public class BanknotesandCoins {
         System.out.println(df.format(oneBanknote)+" moeda(s) de R$ 1.0");
         System.out.println(df.format(fiftyCent)+" moeda(s) de R$ 0.50");
         System.out.println(df.format(twentyFiveCent)+" moeda(s) de R$ 0.25");
-        System.out.println(df.format(tenCent)+" moeda(s) de R$ .10");
-        System.out.println(df.format(fiveCent)+" moeda(s) de R$ 0.05");
-        System.out.println(df.format(oneCent)+" moeda(s) de R$ 0.01");
+        System.out.println(tenCent+" moeda(s) de R$ 0.10");
+        System.out.println(fiveCent+" moeda(s) de R$ 0.05");
+        System.out.println(oneCent+" moeda(s) de R$ 0.01");
         reader.close();
     }
 }
