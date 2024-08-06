@@ -27,6 +27,7 @@ public class BanknotesandCoins {
 
         double totalValueEntered = reader.nextDouble();
 
+        int banknote = (int)totalValueEntered;
 
         int oneHundredBanknote = (int)totalValueEntered / 100;
         int restOfBanknote = (int)totalValueEntered % 100;
