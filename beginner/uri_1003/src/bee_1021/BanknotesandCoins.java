@@ -29,8 +29,10 @@ public class BanknotesandCoins {
 
         int banknote = (int)totalValueEntered;
         int bankCents = (int) ((totalValueEntered - banknote) * 100);
-        int oneHundredBanknote = (int)totalValueEntered / 100;
-        int restOfBanknote = (int)totalValueEntered % 100;
+
+
+        int oneHundredBanknote = banknote / 100;
+        banknote -= banknote * 100;
 
         int fiftyBanknote = restOfBanknote / 50;
         restOfBanknote = restOfBanknote % 50;
