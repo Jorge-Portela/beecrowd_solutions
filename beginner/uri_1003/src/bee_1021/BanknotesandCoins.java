@@ -25,30 +25,28 @@ public class BanknotesandCoins {
         Locale.setDefault(Locale.US);
         Scanner reader = new Scanner(System.in);
 
-        DecimalFormat df = new DecimalFormat("0");
-        df.setRoundingMode(RoundingMode.FLOOR);
         double banknoteEntered = reader.nextDouble();
 
-        double oneHundredBanknote = banknoteEntered / 100;
-        double restOfBanknote = banknoteEntered % 100;
+        int oneHundredBanknote = (int)banknoteEntered / 100;
+        int restOfBanknote = (int)banknoteEntered % 100;
 
-        double fiftyBanknote = restOfBanknote / 50;
+        int fiftyBanknote = restOfBanknote / 50;
         restOfBanknote = restOfBanknote % 50;
 
-        double twentyBanknote = restOfBanknote / 20;
+        int twentyBanknote = restOfBanknote / 20;
         restOfBanknote = restOfBanknote % 20;
 
 
-        double tenBanknote = restOfBanknote / 10;
+        int tenBanknote = restOfBanknote / 10;
         restOfBanknote = restOfBanknote % 10;
 
-        double fiveBanknote = restOfBanknote / 5;
+        int fiveBanknote = restOfBanknote / 5;
         restOfBanknote = restOfBanknote % 5;
 
-        double twoBanknote = restOfBanknote / 2;
+        int twoBanknote = restOfBanknote / 2;
         restOfBanknote = restOfBanknote % 2;
 
-        double oneBanknote = restOfBanknote ;
+        int oneBanknote = restOfBanknote ;
         restOfBanknote = restOfBanknote % 1;
 
         double fiftyCent = restOfBanknote / 0.50;
@@ -66,19 +64,19 @@ public class BanknotesandCoins {
        double oneCent = restOfBanknote / 0.01;
 
         System.out.println("NOTAS:");
-        System.out.println(df.format(oneHundredBanknote)+" nota(s) de R$ 100.00" );
-        System.out.println(df.format(fiftyBanknote)+" nota(s) de R$ 50.00");
-        System.out.println(df.format(twentyBanknote)+" nota(s) de R$ 20.00");
-        System.out.println(df.format(tenBanknote)+" nota(s) de R$ 10.00");
-        System.out.println(df.format(fiveBanknote)+" nota(s) de R$ 5.00");
-        System.out.println(df.format(twoBanknote)+" nota(s) de R$ 2.00");
+        System.out.println(oneHundredBanknote+" nota(s) de R$ 100.00" );
+        System.out.println(fiftyBanknote+" nota(s) de R$ 50.00");
+        System.out.println(twentyBanknote+" nota(s) de R$ 20.00");
+        System.out.println(tenBanknote+" nota(s) de R$ 10.00");
+        System.out.println(fiveBanknote+" nota(s) de R$ 5.00");
+        System.out.println(twoBanknote+" nota(s) de R$ 2.00");
         System.out.println("MOEDAS:");
-        System.out.println(df.format(oneBanknote)+" moeda(s) de R$ 1.00");
-        System.out.println(df.format(fiftyCent)+" moeda(s) de R$ 0.50");
-        System.out.println(df.format(twentyFiveCent)+" moeda(s) de R$ 0.25");
-        System.out.println(df.format(tenCent)+" moeda(s) de R$ 0.10");
-        System.out.println(df.format(fiveCent)+" moeda(s) de R$ 0.05");
-        System.out.println(df.format(oneCent)+" moeda(s) de R$ 0.01");
+        System.out.println(oneBanknote+" moeda(s) de R$ 1.00");
+        System.out.println(fiftyCent+" moeda(s) de R$ 0.50");
+        System.out.println(twentyFiveCent+" moeda(s) de R$ 0.25");
+        System.out.println(tenCent+" moeda(s) de R$ 0.10");
+        System.out.println(fiveCent+" moeda(s) de R$ 0.05");
+        System.out.println(oneCent+" moeda(s) de R$ 0.01");
         reader.close();
     }
 }
