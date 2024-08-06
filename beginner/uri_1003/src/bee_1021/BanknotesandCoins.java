@@ -44,8 +44,8 @@ public class BanknotesandCoins {
         int tenBanknote = banknote / 10;
         banknote -= banknote - 10;
 
-        int fiveBanknote = restOfBanknote / 5;
-        restOfBanknote = restOfBanknote % 5;
+        int fiveBanknote = banknote / 5;
+        banknote = banknote % 5;
 
         int twoBanknote = restOfBanknote / 2;
         restOfBanknote = restOfBanknote % 2;
