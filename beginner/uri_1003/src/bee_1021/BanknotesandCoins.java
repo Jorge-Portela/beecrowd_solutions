@@ -25,7 +25,8 @@ public class BanknotesandCoins {
         Locale.setDefault(Locale.US);
         Scanner reader = new Scanner(System.in);
 
-        double banknoteEntered = reader.nextDouble();
+        double totalValueEntered = reader.nextDouble();
+
 
         int oneHundredBanknote = (int)banknoteEntered / 100;
         int restOfBanknote = (int)banknoteEntered % 100;
