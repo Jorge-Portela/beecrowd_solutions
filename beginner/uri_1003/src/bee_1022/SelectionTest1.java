@@ -23,6 +23,7 @@ public class SelectionTest1 {
 
         int A = reader.nextInt();
          int B = reader.nextInt();
+         int C = reader.nextInt();
         reader.close();
     }
 }
