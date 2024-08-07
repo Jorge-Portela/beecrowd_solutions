@@ -14,10 +14,11 @@ package bee_1022;
  * */
 
 import java.util.Scanner;
+import java.util.Locale;
 
 public class SelectionTest1 {
     public static void main(String[] args) {
-
+        Locale.setDefault(Locale.US);
         Scanner reader = new Scanner(System.in);
 
         reader.close();
