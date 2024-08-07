@@ -22,7 +22,7 @@ public class SelectionTest1 {
         Scanner reader = new Scanner(System.in);
 
         int A = reader.nextInt();
-
+         int B = reader.nextInt();
         reader.close();
     }
 }
