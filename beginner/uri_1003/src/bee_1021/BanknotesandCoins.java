@@ -32,40 +32,41 @@ public class BanknotesandCoins {
 
 
         int oneHundredBanknote = banknote / 100;
-        banknote -= banknote * 100;
+        banknote -= oneHundredBanknote * 100;
 
         int fiftyBanknote = banknote / 50;
         banknote -= fiftyBanknote * 50;
 
         int twentyBanknote = banknote / 20;
-        banknote -= banknote * 20;
+        banknote -= twentyBanknote * 20;
 
 
         int tenBanknote = banknote / 10;
-        banknote -= banknote - 10;
+        banknote -= tenBanknote * 10;
 
         int fiveBanknote = banknote / 5;
-        banknote -= banknote - 5;
+        banknote -= fiveBanknote * 5;
 
         int twoBanknote = banknote / 2;
-        banknote = banknote % 2;
+        banknote -= twoBanknote * 2;
 
-        int oneBanknote = restOfBanknote ;
-        restOfBanknote = restOfBanknote % 1;
 
-        double fiftyCent = restOfBanknote / 0.50;
-        restOfBanknote = restOfBanknote % 0.5;
+        int oneBanknote = banknote ;
 
-        double twentyFiveCent = restOfBanknote / 0.25;
-        restOfBanknote = restOfBanknote % 0.25;
 
-       double tenCent = restOfBanknote / 0.10;
-       restOfBanknote = restOfBanknote % 0.10;
+        int fiftyCent = bankCents / 50;
+        bankCents -= fiftyCent * 50;
 
-       double fiveCent = restOfBanknote / 0.05;
-       restOfBanknote = restOfBanknote % 0.05;
+        int twentyFiveCent = bankCents / 25;
+        bankCents -= twentyFiveCent * 25;
 
-       double oneCent = restOfBanknote / 0.01;
+        int tenCent = bankCents / 10;
+        bankCents -= tenCent * 10;
+
+       int fiveCent = bankCents / 5;
+        bankCents -= fiveCent * 5;
+
+       int oneCent = bankCents;
 
         System.out.println("NOTAS:");
         System.out.println(oneHundredBanknote+" nota(s) de R$ 100.00" );
