@@ -4,14 +4,13 @@ package bee_1022;
  * and if the sum of C and D is greater than the sum of A and B and if C and D were
  * positives values and if A is even, write the message “Valores aceitos” (Accepted values).
  * Otherwise, write the message “Valores nao aceitos” (Values not accepted).
- *
- *  //Input
+ * <p>
+ * //Input
  * Four integer numbers A, B, C and D.
- *
- *  //Output
+ * <p>
+ * //Output
  * Show the corresponding message after the validation of the values.
- *
- * */
+ */
 
 import java.util.Scanner;
 import java.util.Locale;
@@ -22,9 +21,9 @@ public class SelectionTest1 {
         Scanner reader = new Scanner(System.in);
 
         int A = reader.nextInt();
-         int B = reader.nextInt();
-         int C = reader.nextInt();
-         int D = reader.nextInt();
+        int B = reader.nextInt();
+        int C = reader.nextInt();
+        int D = reader.nextInt();
         reader.close();
     }
 }
